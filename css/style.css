@@ -1,0 +1,217 @@
+/*#id              .classe*/
+
+/* Padrão */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  text-decoration: none;
+  list-style: none;
+  padding: 0vw;
+  margin: 0;
+}
+/* Header e Básicos Dentro do Header */
+.header {
+  display: flex;
+  background-color: #95b3c5;
+}
+.logo {
+  width: 7vw;
+}
+.titulo {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-inline: 5vh;
+  text-decoration: none;
+}
+.title {
+  font-size: 1.5vw;
+  color: #000;
+}
+
+/* Input */
+
+.pesquisa {
+  align-self: flex-end;
+  position: absolute;
+  width: 100%;
+  text-align-last: center;
+  background-color: #95b3c5;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3vh;
+  margin-bottom: 2vh;
+  width: 35vw;
+  background: none;
+  outline: none;
+  border-color: rgb(0, 0, 0);
+  border-radius: 0.4vw;
+}
+
+input::placeholder {
+  background: none;
+  color: #000000;
+  text-align: center;
+  font-size: 1vw;
+}
+
+/* Categorias */
+.cat {
+  display: flex;
+  align-self: end;
+  align-self: flex-end;
+  position: absolute;
+  text-align-last: center;
+  margin-left: 8vw;
+}
+
+li {
+  margin-left: 3vh;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  color: #000000;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Linha de Separação */
+.line {
+  background-color: #f4c430;
+  height: 0.5vh;
+  border: none;
+}
+
+/* Fim da busca e header */
+
+/* Componentes */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudos {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  box-shadow: none;
+  width: 50vw;
+}
+
+.section {
+  place-content: center;
+  display: flex;
+}
+
+div {
+  display: block;
+  background: #272727;
+  margin-top: 3vh;
+}
+h6 {
+  color: #fff;
+  padding: 10px;
+  width: 30vw;
+  height: auto;
+  display: inline-flex;
+  font-size: 1.5vw;
+  font-weight: 100;
+  justify-content: center;
+}
+
+h1{
+  color: #FFF;
+}
+
+.h1 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 30vw;
+  height: auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+p {
+  color: #fff;
+  padding: 10px;
+  width: 30vw;
+  height: auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+img {
+  width: 50vw;
+  max-width: 85%;
+  height: auto;
+}
+
+/* TELA DE LOGIN */
+
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  display: flex;
+}
+.login-card {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 20px #272727;
+}
+.input1{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #95b3c5;
+  color: rgba(24, 25, 26, 0.925);
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+.button{
+  width: 15vw;
+  padding: 16px 0px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/*  */
