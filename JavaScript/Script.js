@@ -32,7 +32,7 @@ async function getallgames() {
   };
 
   function addHTML(user) {
-    let div = document.createElement("div");
+    let section = document.createElement("section");
     let title = document.createElement("h1");
     let thumbnail = document.createElement("img");
     let short_description = document.createElement("h2");
@@ -53,17 +53,17 @@ async function getallgames() {
     developer.innerHTML = user.developer;
     release_date.innerHTML = user.release_date;
 
-    div.appendChild(title);
-    div.appendChild(thumbnail);
-    div.appendChild(short_description);
-    div.appendChild(developer);
-    div.appendChild(publisher);
-    div.appendChild(genre);
-    div.appendChild(platform);
-    div.appendChild(game_url);
-    div.appendChild(release_date);
+    section.appendChild(title);
+    section.appendChild(thumbnail);
+    section.appendChild(short_description);
+    section.appendChild(developer);
+    section.appendChild(publisher);
+    section.appendChild(genre);
+    section.appendChild(platform);
+    section.appendChild(game_url);
+    section.appendChild(release_date);
 
-    container.append(div);
+    container.append(section);
   }
 
   games.forEach((user) => {

@@ -44,7 +44,6 @@ body {
   position: absolute;
   width: 100%;
   text-align-last: center;
-  background-color: #95b3c5;
 }
 
 input {
@@ -119,7 +118,7 @@ main {
   display: flex;
 }
 
-div {
+section {
   display: block;
   background: #272727;
   margin-top: 3vh;
