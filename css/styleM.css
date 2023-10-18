@@ -56,6 +56,10 @@
   .title {
     font-size: 1.5vw;
   }
+
+  .conteudos{
+    width: 70vw;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
@@ -86,6 +90,7 @@
     width: 50vw;
     font-size: 3vw;
   }
+
 }
 
 
