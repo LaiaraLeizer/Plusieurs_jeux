@@ -37,5 +37,9 @@ https://evilhazard.com.br/eviltalk-por-que-os-jogos-de-video-game-nao-sao-respon
 para salvar:
 
 Git add .
-Git commit -m "versão nova"
+Git commit -m "atualizacao"
 Git push origin main
+
+
+
+
