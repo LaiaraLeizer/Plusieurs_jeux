@@ -216,3 +216,159 @@ img {
 }
 
 /*  */
+
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .header {
+    display: flex;
+    background-color: #95b3c5;
+  }
+  .logo {
+    width: 7vw;
+  }
+  .titulo {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-inline: 5vh;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    display: flex;
+    background-color: #95b3c5;
+  }
+  .logo {
+    width: 7vw;
+  }
+  .titulo {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-inline: 5vh;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header {
+    display: flex;
+    background-color: #95b3c5;
+  }
+  .logo {
+    width: 7vw;
+  }
+  .titulo {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-inline: 5vh;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 1.5vw;
+  }
+
+  .conteudos{
+    width: 70vw;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .header {
+    display: flex;
+    background-color: #95b3c5;
+  }
+  .logo {
+    width: 7vw;
+  }
+
+  
+  .titulo {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-inline: 5vh;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 1.5vw;
+  }
+
+  .conteudos{
+ width: 70vw;
+  }
+  p{
+    width: 50vw;
+    font-size: 3vw;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .header {
+    display: flex;
+    background-color: #95b3c5;
+    height: 6vh;
+  }
+  .logo {
+    width: 14vw;
+  }
+  .titulo {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-inline: 1vh;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 3.5vw;
+  }
+  a{
+    font-size: 2vw;
+    margin-bottom: 0.3vh;
+  }
+
+  input {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2vh;
+    margin-bottom: 2vh;
+    width: 25vw;
+    background: none;
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0.4vw;
+}
+
+
+.conteudos{
+  width: 70vw;
+}
+
+
+
+
+}
