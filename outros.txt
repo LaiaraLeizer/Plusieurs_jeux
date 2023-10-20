@@ -37,7 +37,7 @@ https://evilhazard.com.br/eviltalk-por-que-os-jogos-de-video-game-nao-sao-respon
 para salvar:
 
 Git add .
-Git commit -m "aa"
+Git commit -m "teste"
 Git push origin main
 
 
