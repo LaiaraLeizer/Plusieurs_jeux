@@ -25,3 +25,6 @@ function googleTranslateElementInit() {
 
 para salvar:
 
+Git add .
+Git commit -m "teste final"
+Git push origin main
