@@ -29,11 +29,6 @@ https://evilhazard.com.br/eviltalk-por-que-os-jogos-de-video-game-nao-sao-respon
     /* background-color: #5239c2; */
 
 
-
-
-
-
-
 para salvar:
 
 Git add .
